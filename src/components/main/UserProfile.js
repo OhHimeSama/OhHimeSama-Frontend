@@ -54,7 +54,7 @@ function ShowInfo({ name, called, profile_img }) {
   );
 }
 
-function Main() {
+function UserProfile() {
   return (
     <div>
       <LoadInfo />
@@ -62,4 +62,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default UserProfile;

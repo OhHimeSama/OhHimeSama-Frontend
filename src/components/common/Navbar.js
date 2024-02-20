@@ -6,7 +6,9 @@ function Navbar() {
     <div className={styles["nav"]}>
       <header className={styles["header"]}>
         <div className={styles["nav-logo"]}>
-          <img src="../../img/logo.png" alt="logo" width={"130px"} />
+          <a href="/">
+            <img src="../../img/logo.png" alt="logo" width={"130px"} />
+          </a>
         </div>
         <div className={styles["nav-user"]}>
           <img src="../../img/user.png" alt="user" width={"25px"} />
