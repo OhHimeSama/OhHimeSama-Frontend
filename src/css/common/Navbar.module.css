@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #f99a9a;
+  box-shadow: inset 0 0 0 2px #f9dada;
+  display: flex;
+  width: 100%;
+}
+
+.nav-logo {
+  padding: 10px;
+}
+
+.nav-user {
+  position: absolute;
+  right: 1vmin;
+  padding: 20px;
+}
